@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+	 	@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+		@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+		body {background-color: black;}
+		section{width:1366px; overflow: hidden;}
+		.tk-source-han-serif-korean{font-family:"source-han-serif-korean",serif;}
+		.wrap{position: relative; width:1366px; height: 900px; float:left;}
+		.wrap2{position: relative; width:1366px; height: 640px; float:left; margin-top: 50px;}
+		.wrap3{position: relative; width:1366px; height: 640px; float:left; margin-top: 250px; overflow: hidden;}
+		.wrap4{position: relative; width:1366px;height:640px;  float:left; margin-top: 250px;}
+		.wrap5{position: relative; width:1366px;height:950px;  float:left; margin-top: 250px;}
+		.paragraph{position: absolute; width:380px; z-index: 5; float: left;}
+		footer{position: relative; width:1366px;height:300px;  float:left; margin-top: 50px;}
+		#number {font-size: 7em; 
+			color: white; position: absolute; 
+			font-weight: 900; word-spacing: -3px; 
+			font-family: 'Noto Sans KR', sans-serif; z-index: 4;}
+		#graph-title{color: #e13631; position: absolute;
+		 font-size: 0.9em; word-spacing: -1px; font-weight: 100; font-family: 'Noto Sans KR', sans-serif; z-index: 4;}
+		.shoot-name{color: #e13631; 
+			position: absolute; 
+			font-size: 1em; font-weight: 700;
+			font-family: 'source-han-serif-korean', serif; 
+			line-height: 134%;
+			z-index: 5;
+		}
+		.shoot-name:hover{text-decoration: underline;}
+
+		.place {font-size: 2.2em; color: white; position: absolute; font-weight: 700; word-spacing: -3px; font-family: 'source-han-serif-korean', serif;}
+		.date {font-size: 1.5em; color: white; position: absolute; font-weight: 400; letter-spacing: 0.1px; font-family: 'Noto Sans KR', sans-serif;}
+
+		a{text-decoration: none;
+			color: white;}
+		h5 {font-size: 1.4em; color: white; 
+			position: absolute; line-height: 155%; 
+			font-weight: 200; word-spacing: -1px; 
+			font-family: 'KoPub Batang', serif; 
+			top:633px; left:200px;
+			width:560px;
+			z-index: 3;}
+
+		h3 {font-size: 2.18em; color: white; 
+			position: absolute; line-height: 134%; 
+			font-weight: bolder; word-spacing: -2px; 
+			font-family: 'source-han-serif-korean', serif; 
+			z-index: 4;}
+
+		h2 {font-size: 4.4em; 
+			color: white; position: absolute; 
+			font-weight: 900; word-spacing: -1px; 
+			font-family: 'Noto Sans KR', sans-serif; 
+			z-index: 3; }
+		h2:after {
+		   content: '';
+		   width: 100%;
+		   display: block; 
+		   margin-top: -3px; 
+		   border-bottom: 5.5px solid white;
+		}
+
+		p {font-size: 1.15em; 
+			color: white; position: absolute; 
+			line-height: 175%; font-weight: 200; 
+			font-family: 'KoPub Batang', serif; letter-spacing: -1px;
+			z-index: 4; float: left; word-break: keep-all;}
+		ul {color: white; 
+			position: absolute; top:35px; left:434px; 
+			letter-spacing: -1px; 
+			padding:0 10px;  
+			list-style: none;
+			z-index: 3;
+			}
+		ul li{font-size: 1.3em; 
+			font-family: 'Noto Sans KR', sans-serif; 
+			font-weight: 500;
+			float:left;
+			margin-right:105px;
+			}
+		ul li a:hover{color:#e13631; transition: 0.5s;}
+		#gun-line {position: absolute;
+			width:800px;
+			border: 1.5px solid white;
+			top:616px; left:147px;}
+		#pp2{margin-top: 220px;}
+		#pp3{margin-top: 130px}
+		#title{position: absolute;
+			top:443px; left:145px;
+			z-index: 3;}
+		#title-gun{position: absolute;
+				top:215px; left:442px;
+				z-index: 3;}
+		#quote{position: absolute;
+			top:664px; left: 150px; z-index: 3;}
+		#flag{position: absolute; z-index:1;}
+		#back{position:absolute; top:10px; left:10px; margin: 0; padding: 0;}
+		#history-box{position: relative; top:115px; left: 830px}
+		#history-p{top:187px;}
+
+		#march-p{top: 205px;}
+
+		#shooting-p{top: 176px;}
+		#shooting-box{position: relative; top: 90px; left: 150px;}
+		#gun-shooting{position: absolute; top: 160px; left: 685px; z-index: 3;}
+
+		#history-graph{position: absolute; z-index: 4; top:50px;}
+		#shooting-history{position: absolute; z-index: 3; left:75px;}
+		#shoot-box{position: relative; left: 143px; top: 15px;}
+		#number{top: -15px; left: -8px;}
+		#graph-title{top: 620px; left: 100px;}
+
+		#shoot-texas{top: 372px; left: 200px;}
+		#shoot-mit{top: 292px; left: 375px;}
+		#shoot-forthood{top: 390px; left: 670px;}
+		#shoot-sandy{top: 343px; left: 925px;}
+		#shoot-orlando{top: 120px; left: 935px;}
+		#shoot-LV{top: 27px; left: 1076px;}
+
+		.graph-line {position: absolute;
+			width:60px;
+			border: 1px solid #e13631;
+			z-index: 5;}
+		#texas-line{top: 390px; left: 130px;}
+		#mit-line{top: 310px; left: 515px;}
+		#fort-line{position: absolute; top: 432px; left: 675px; z-index: 5;}
+		#sandy-line{top: 360px; left: 857px;}
+		#orlando-line{top: 137px; left: 1060px;}
+		#LV-line{top: 45px; left: 1200px;}
+
+		.case-box{position: relative; top: -28px; left:145px;}
+		.case-box2{position: relative; top: -28px; left:755px;}
+		#columbine-box{top:22px;}
+
+		.date{top: 3px;}
+		.place{top: -23px;}
+		#place1{left: 135px;}
+		#place2{left:170px;}
+		#place3{left:185px;}
+		#place4{left:220px;}
+		#place5{left:195px;}
+		#place7{left: 195px;}
+		#place8{left:192px;}
+		#place9{left: 185px;}
+		#place10{left: 182px;}
+
+
+		#gunshot{position: relative;}
+		.case-p{position: relative; top: 85px;}
+		.case-p{position: relative; top: 78px;}
+		.case{position: absolute; width: 450px;}
+		#sanMac{top: 180px;}
+		#sanmcdonald{position: absolute; top: 7px; left: 684px; z-index: 5;}
+
+		#lubyspic{position: absolute; top: 7px; left: 145px; z-index: 5;}
+		#plubys{top:150px;}
+
+		#highpic{position: absolute; z-index: 3;}
+		#highpic2{position: absolute; top: 340px; left: 75px; z-index: 4;}
+		#pcolumbine{top: 150px;}
+
+		#pmit{top: 117px;}
+		#mitpic{position: absolute; top: 7px; left: 684px; z-index: 5;}
+
+		#pfort{top:84px;}
+		#fortpic{position: absolute; top: 7px; left: 145px; z-index: 5;}
+
+		#tucsonpic{position: absolute; z-index: 3;}
+		#tucson-box{top:22px;}
+		#ptucson{top: 117px;}
+
+		#theater{position: absolute; top: 7px; left: 145px; z-index: 3;}
+		#theater-title{position: absolute; top: 365px; left: 578px; z-index: 4;}
+
+		#sandy-pbox{width: 515px; height: 350px; position: absolute; left: 110px; z-index: 3; background-color: black;}
+		#psandy{top:150px;}
+		#sandyhook-box{top:0px;}
+
+		#night{position: absolute; top: 7px; left: 145px; z-index: 3;}
+
+		#vegaspic{position: absolute; top: 7px; left: 684px; z-index: 5;}
+
+
+		.fatality{position: absolute; background-color: #e13631; width:73px; z-index: 5;
+		font-weight: 900; word-spacing: -1px; font-size: 1.57em; padding-left: 10px; overflow: hidden;
+			font-family: 'Noto Sans KR', sans-serif; color: white;}
+		.injured{position: absolute; background-color: #5a5a5a; width:73px; z-index: 5;
+		font-weight: 900; word-spacing: -1px; font-size: 1.57em; padding-left: 10px; overflow: hidden;
+			font-family: 'Noto Sans KR', sans-serif; color: white; left: 111px;}
+		.fatality-title{position: absolute; z-index: 5; 
+		font-weight: 400; word-spacing: -1px; font-size: 1.5em; left: 5px;
+			font-family: 'Noto Sans KR', sans-serif; color: #e13631;}
+		.injured-title{position: absolute; z-index: 5; 
+		font-weight: 400; word-spacing: -1px; font-size: 1.5em; left: 114px;
+			font-family: 'Noto Sans KR', sans-serif; color: #5a5a5a;}
+		#unit{position: absolute; z-index: 5; 
+		font-weight: 400; word-spacing: -1px; font-size: 0.8em; left: 220px; top: 557px;
+			font-family: 'Noto Sans KR', sans-serif; color: white;}
+		#f-title1{top: 323px; }
+		#i-title1{top: 351px;}
+		#fatality1{ height: 202px; top: 388px;}
+		#injured1{ height: 176px; top: 414px;}
+
+		#fatality2{ height: 202px; top: 400px; left: 383px;}
+		#injured2{ height: 250px; top: 364px; left: 272px;}
+
+		#fatality3{ height: 202px; top: 420px; left: 383px;}
+		#injured3{ height: 250px; top: 319px; left: 272px; }
+
+		#fatality4{ height: 290px; top: 305px; }
+		#injured4{ height: 220px; top: 388px;}
+
+		#fatality5{ height: 202px; top: 487px; left: 383px;}
+		#injured5{ height: 250px; top: 345px; left: 272px;}
+
+		#fatality6{ height: 52px; top: 550px; left: 383px;}
+		#injured6{ height: 117px; top: 487px; left: 272px;}
+		#tucson-graph{position: relative; left: 610px; top:-45px;}
+		#tucson-graphbox{position: absolute; top: 355px; left: 825px;  
+			background-color: black; height: 300px; width:300px; z-index: 4;}
+
+		#fatality7{ height: 110px; top:910px;}
+		#injured7{ height: 632px; top: 388px;}
+		#colorado-graph{position: absolute;  top: -381px; left: 145px; z-index: 5;}
+
+		#fatality8{ height: 290px; top: 340px;}
+		#injured8{ height: 30px; top: 533px;}
+
+		#fatality9{ height: 600px; top:570px;}
+		#injured9{ height: 632px; top: 540px;}
+		#orlando-graph{position: absolute; top: -381px; left: 145px; z-index: 5;}
+
+		.vegasnum{position: absolute; z-index: 5; 
+		font-weight: 800; word-spacing: -1px; font-size: 5em; left: 140px; top:352px; color: #e13631;
+			font-family: 'Noto Sans KR', sans-serif;}
+		#vegasnum2{color: white; top: 445px;}
+
+		#fatality11{ height: 600px; top:860px;}
+		#injured11{ height: 632px; top: 890px;}
+		#parkland-box{top:100px;}
+
+		#law-box{position: relative; left: 145px;}
+
+		#march-title{word-spacing: 5px; letter-spacing: 10.7px; font-family: 'Noto Sans KR', sans-serif; font-size: 1.2em; font-weight: 600; top: 150px;}
+		#marchpic{position: absolute; left: 685px; top: 123px;}
+		#march-box{top: 20px; position: relative; left: 145px;}
+
+		#marchpic2{position: absolute;}
+		#march-p2{top: 70px; left: 750px;}
+
+		#guncontrol-title{position: absolute;}
+		.adress{font-size: 1.15em; 
+			color: white; position: absolute; 
+			line-height: 175%; font-weight: 200; 
+			font-family: 'KoPub Batang', serif; letter-spacing: -1px;
+			z-index: 4; float: left; top: 15px;}
+			#footer2 {position: relative; left:145px; top: 200px;}
+			#edit{left:750px;}
+
+
+
+
+		#topbutton{width:50px;
+			position: fixed; bottom: 15px; right: 15px;
+			z-index: 7;}
+			#topbutton:hover{bottom: 12px; border-bottom: 3px solid white;}
+
+		#gunshot{top: -5542px; overflow: hidden;}
+		#texaslubys{overflow: hidden;}
+		#columbine{overflow: hidden;}
+		#mit{overflow: hidden;}
+		#forthood{overflow: hidden;}
+
+		#guncontrol-title1{position: absolute; top: 58px; left: 145px;}
+
+		#sandyhookdiv{width: 900px; height: 600px; position: absolute; left: 522px; top: 86px;}
+		#parkdiv{width: 1020px; height:580px; position: absolute; top: 60px;}
+
